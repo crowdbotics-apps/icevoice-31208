@@ -2,10 +2,10 @@ from django.contrib import admin
 from .models import (
     ForwardedMessage,
     Message,
-    ThreadMember,
     MessageAction,
     Thread,
     ThreadAction,
+    ThreadMember,
 )
 
 admin.site.register(ThreadMember)

@@ -2,18 +2,18 @@ from rest_framework import authentication
 from chat.models import (
     ForwardedMessage,
     Message,
-    ThreadMember,
     MessageAction,
     Thread,
     ThreadAction,
+    ThreadMember,
 )
 from .serializers import (
     ForwardedMessageSerializer,
     MessageSerializer,
-    ThreadMemberSerializer,
     MessageActionSerializer,
     ThreadSerializer,
     ThreadActionSerializer,
+    ThreadMemberSerializer,
 )
 from rest_framework import viewsets
 

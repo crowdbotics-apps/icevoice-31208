@@ -3,10 +3,10 @@ from rest_framework.routers import DefaultRouter
 from .viewsets import (
     ForwardedMessageViewSet,
     MessageViewSet,
-    ThreadMemberViewSet,
     MessageActionViewSet,
     ThreadViewSet,
     ThreadActionViewSet,
+    ThreadMemberViewSet,
 )
 
 router = DefaultRouter()

@@ -1,8 +1,8 @@
 from rest_framework import authentication
-from chat_user_profile.models import Profile, Contact, VerificationCode
+from chat_user_profile.models import Contact, Profile, VerificationCode
 from .serializers import (
-    ProfileSerializer,
     ContactSerializer,
+    ProfileSerializer,
     VerificationCodeSerializer,
 )
 from rest_framework import viewsets

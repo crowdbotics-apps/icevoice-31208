@@ -2,10 +2,10 @@ from rest_framework import serializers
 from chat.models import (
     ForwardedMessage,
     Message,
-    ThreadMember,
     MessageAction,
     Thread,
     ThreadAction,
+    ThreadMember,
 )
 
 
